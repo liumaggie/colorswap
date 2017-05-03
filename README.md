@@ -15,11 +15,11 @@ The features of this game include:
 
 ### Wireframes
 
-This game will consist of three pages, one for the splash page, one for the game play and one for game over. The splash page will include a start button, the scoreboard, and a mute button. The game play page will display everything rendered from the game logic, including the player, obstacles and power-ups. The game over page will show the current score, high score and a restart button.
+This game will consist of three pages, one for the splash page, one for the game play and one for game over. The splash page will include a start button, the scoreboard, and a mute button. The game play page will display everything rendered from the game logic, including the player, obstacles and power-ups. The game over page will show the current score, high score and a restart button. Each of these pages will have several navigation links for my portfolio site, Github and LinkedIn.
 
-<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/splash-page.png" alt="SplashPage" width="50%" height="auto">
-<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/game-play.png" alt="GamePlay" width="50%" height="auto">
-<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/game-over.png" alt="GameOver" width="50%" height="auto">
+<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/splash-page.png" alt="SplashPage" width="30%" height="50%">
+<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/game-play.png" alt="GamePlay" width="30%" height="50%">
+<img src="https://github.com/liumaggie/colorswap/blob/master/wireframes/game-over.png" alt="GameOver" width="30%" height="50%">
 
 ### Technologies
 
