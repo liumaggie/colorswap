@@ -1,7 +1,51 @@
+body, canvas, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
 body {
   display: flex;
 }
 
-canvas {
+.entire-page {
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+ul > li {
+  font-size: 48px;
+}
+
+ul > li:last-child {
+  font-size: 42px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.fa-github:hover {
+  color: #35E2F2;
+}
+
+.fa-linkedin-square:hover {
+  color: #8D13FC;
+}
+
+.fa-user-circle:hover {
+  color: #FF0181;
 }
