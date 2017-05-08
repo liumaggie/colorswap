@@ -8,7 +8,7 @@
 
 Color Swap is a browser game inspired by the mobile version, Color Switch. The goal of this game is to beat the highest score by tapping the ball and matching the colors as it passes through each obstacle. The obstacles have a variety of shapes, are made up of four different colors and rotate constantly to make it difficult for the user to match the colors.
 
-<img src="https://github.com/liumaggie/colorswap/tree/master/assets/game.png" alt="ColorSwap" width="50%" height="auto">
+<img src="https://github.com/liumaggie/colorswap/blob/master/assets/game.png" alt="ColorSwap" width="50%" height="auto">
 
 ### Instructions
 
