@@ -110,6 +110,25 @@ animate(time) {
 
 This function checks to see if the game is over and if isn't over, I used `requestAnimationFrame` to create the game loop for updating the animation at approximately 60 times per second. All of the `Game` methods in `animate` are responsible for adding, shifting, rotating and drawing the obstacles and power-ups. The objects displayed (obstacles, star and color spinner) are based on a queue where it is being added to the end of an array and shifted from the front of the array when they reach the bottom of the canvas.
 
+An example of one of the `Game` methods is in the following function for adding the shapes to the canvas.
+
+```Javascript
+addShapes() {
+  // checks to see that player is in first shape
+  // player can fall out of the shape and lose
+  if (this.player.y < Game.height/2) { this.started = true; }
+  if (this.shapes.length <= 3) {
+    this.addSpinner();
+    const randomObs = this.selectRandomShape();
+    const newObs = this.createShape(randomObs);
+    this.addObstacle(newObs);
+    this.addStar(newObs.x, newObs.y);
+  }
+}
+```
+
+The shapes on the screen (stars, color spinner and obstacles) are added and removed from the queue, `this.shapes`. If the length of this array is less than 3, I add a spinner, a random obstacle and a star at the center of the obstacle's position.
+
 ### Future Features
 
 * Different levels
