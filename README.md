@@ -4,13 +4,13 @@
 
 <img src="https://github.com/liumaggie/colorswap/blob/master/assets/splash_ss.png" alt="ColorSwapSplash" width="50%" height="auto">
 
-### Background
+## Background
 
 Color Swap is a browser game inspired by the mobile version, Color Switch. The goal of this game is to beat the highest score by tapping the ball and matching the colors as it passes through each obstacle. The obstacles have a variety of shapes, are made up of four different colors and rotate constantly to make it difficult for the user to match the colors.
 
 <img src="https://github.com/liumaggie/colorswap/blob/master/assets/game.png" alt="ColorSwap" width="45%" height="auto"> <img src="https://github.com/liumaggie/colorswap/blob/master/assets/shapes.png" alt="ColorSwapShapes" width="45%" height="auto">
 
-### Instructions
+## Instructions
 
 * Click / press enter to start a new a game.
 * Tap / press spacebar to move the player.
@@ -18,15 +18,15 @@ Color Swap is a browser game inspired by the mobile version, Color Switch. The g
 * Collect stars that represent your score.
 * Press 'M' to mute/un-mute the sound.
 
-### Technologies Used
+## Technologies Used
 
 * HTML5 Canvas
 * Vanilla Javascript
 * Object-Oriented Programming
 
-### Features
+## Features
 
-#### Obstacle Rotation
+### Obstacle Rotation
 
 There are a few different obstacle shapes - circles, double circles, squares, triangles and lines, each with four colors. The circles were drawn with four arcs and the other shapes were drawn with lines that formed rectangles.
 
@@ -129,7 +129,7 @@ addShapes() {
 
 The shapes on the screen (stars, color spinner and obstacles) are added and removed from the queue, `this.shapes`. If the length of this array is less than 3, I add a spinner, a random obstacle and a star at the center of the obstacle's position.
 
-### Future Features
+## Future Features
 
 * Different levels
 * Persisting high score to database
