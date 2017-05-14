@@ -62,7 +62,8 @@ Each line of the square and triangle obstacles were rectangles with a height of 
 collision(player) {
   const start = this.start % (2*Math.PI);
   const circle = player;
-  // theta is the angle between the actual position of the circle and the position of the rotated circle after rotating the rectangle to 0 degree
+  // theta is the angle between the actual position of the circle and the
+  // position of the rotated circle after rotating the rectangle to 0 degree
   const theta = (this.start/2 + this.end/2) % (2*Math.PI)
   // calculating theta gives us the rotation angle of the rectangle
   const rect = {
