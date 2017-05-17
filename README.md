@@ -91,8 +91,7 @@ animate(time) {
   const timeDelta = time - this.elapsedTime;
   if (this.game.gameover === true) {
     this.checkScore();
-    this.ctx.canvas.removeEventListener("mousedown", this.movePlayer);
-    window.removeEventListener("keydown", this.checkKeyForMove);
+    this.removeEventListeners();
     setTimeout(() => this.lossSplash(), 100);
   } else {
     this.game.loop();
