@@ -91,7 +91,7 @@ animate(time) {
   const timeDelta = time - this.elapsedTime;
   if (this.game.gameover === true) {
     this.checkScore();
-    this.removeEventListeners();
+    this.removeGameEventListeners();
     setTimeout(() => this.lossSplash(), 100);
   } else {
     this.game.loop();
