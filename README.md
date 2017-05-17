@@ -95,11 +95,7 @@ animate(time) {
     window.removeEventListener("keydown", this.checkKeyForMove);
     setTimeout(() => this.lossSplash(), 100);
   } else {
-    this.game.addShapes();
-    this.game.moveShapes();
-    this.game.shiftShapes();
-    this.game.removeShape();
-    this.game.collided();
+    this.game.loop();
     this.game.playerFall(timeDelta);
     this.elapsedTime = time;
     this.game.checkIfPlayerFell();
