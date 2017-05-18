@@ -22,11 +22,15 @@ body {
 
 ul {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  margin-left: 180px;
 }
 
 ul > li {
   font-size: 48px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 ul > li:last-child {
