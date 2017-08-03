@@ -20,6 +20,10 @@ body {
   margin: 0 auto;
 }
 
+html, body {
+  user-zoom: fixed;
+}
+
 ul {
   list-style: none;
   display: flex;
